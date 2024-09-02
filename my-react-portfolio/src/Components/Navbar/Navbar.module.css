@@ -3,8 +3,8 @@
     top: 0;
     left: 0;
     width:100%;
-    padding: 20px 10%;
-    background: seagreen;
+    padding: 3vh 10%;
+    background: hsl(120, 100%, 25%, .2);
     display: flex;
     justify-content: space-between;
     align-items: center;

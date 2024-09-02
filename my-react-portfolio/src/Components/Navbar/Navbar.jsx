@@ -1,10 +1,11 @@
 import React from "react"
-import './Navbar.css'
+import styles from'./Navbar.module.css'
+
 const Navbar = () => {
   return (
-    <header className="header">
-        <a href = "/" className ="Logo">Wanjin</a>
-        <nav className="navbar">
+    <header className={styles.header}>
+        <a href = "/" className ={styles.logo}>Wanjin</a>
+        <nav className= {styles.navbar}>
             <a href="/">Home</a>
             <a href="/">About</a>
             <a href="/">Skills</a>
