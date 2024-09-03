@@ -1,4 +1,5 @@
 import AboutMe from "../Page/About.jsx";
+import Footer from "../Page/Footer.jsx";
 import Home from "../Page/Home.jsx";
 import Projects from "../Page/Projects.jsx";
 import Skills from "../Page/Skills.jsx";
