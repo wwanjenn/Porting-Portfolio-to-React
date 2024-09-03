@@ -21,7 +21,7 @@ const Skills = () => {
                     
                     </div>
                     <div className={style.SkillsImg}>              
-                        <DotLottieReact className = {style.skillImg}  src="https://lottie.host/428d1b6c-2c98-429c-bbbf-c411ceff112b/sGrRXREVZ3.json" background="transparent" speed="1.25" loop autoplay></DotLottieReact>
+                        <DotLottieReact className = {style.skillImg}  src="https://lottie.host/428d1b6c-2c98-429c-bbbf-c411ceff112b/sGrRXREVZ3.json" speed="1.25" loop autoplay></DotLottieReact>
                     </div>
                 </div>
             </section>
