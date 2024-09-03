@@ -1,22 +1,17 @@
 import React from "react";
 import style from "./Project.module.css";
-import ProjectCard from "./ProjectCard/ProjectCard.jsx";
+//import ProjectCard from "./ProjectCard/ProjectCard.jsx";
 
 const Projects = () =>{
     return(
             <>
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+            <section className={style.workSection} id="work">
+                <h2 className={style.workTitle}>Projects</h2>
             
-                <div class="work__container bd-grid">
-                    <ProjectCard></ProjectCard>
-                    <ProjectCard></ProjectCard>
-                    <ProjectCard></ProjectCard>
-                    <ProjectCard></ProjectCard>
-                    <ProjectCard></ProjectCard>
-                    <ProjectCard></ProjectCard>
-                    <div class="button__container">
-                        <a href="https://github.com/Lemonade-up" class="buttonz">View More <i class='bx bx-right-arrow-alt' ></i></a>
+                <div className={style.workContainerGrid}>
+                    <div className={style.buttonContainer}>
+                        <a href="https://github.com/Lemonade-up" className={style.button}>
+                        View More <i className={`${style.bx} ${style['bx-right-arrow-alt']}`}></i></a>
                     </div>
                 </div>
             </section>
@@ -24,4 +19,4 @@ const Projects = () =>{
     )
 };
 
-export default Projects
+export default Projects;

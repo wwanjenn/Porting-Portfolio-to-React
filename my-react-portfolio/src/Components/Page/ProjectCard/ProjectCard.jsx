@@ -7,4 +7,4 @@ const ProjectCard = (props) =>{
     </>)
 };
 
-export default ProjectCard
+export default ProjectCard;
